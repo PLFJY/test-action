@@ -1,14 +1,16 @@
 name: Build and draft a release
 
-on:
-  push:
-    branches: ["main"]
-  pull_request:
-    branches: ["main"]
+on: workflow_dispatch
 
 jobs:
 
   build:
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      BUILD_PATH: ${{ github.workspace }}/build/neo-bpsys-wpf
+      PROJ_PATH: ${{ github.workspace }}/neo-bpsys-wpf/neo-bpsys-wpf.csproj
+      INSTALLER_GENERATE_DIR: ${{ github.workspace }}/InstallerGenerate
+      INSTALLER_OUTPUT: ${{ github.workspace }}/build/neo-bpsys-wpf_Installer.exe
 
     runs-on: windows-latest
 
@@ -16,18 +18,37 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
       with:
-        fetch-depth: 0
+        fetch-depth: 1
       
     - name: Install .NET Core
       uses: actions/setup-dotnet@v4
       with:
         dotnet-version: 9.0.x
 
-    - name: Build by Script
+    - name: Build
       run: |
-        powershell
         dotnet --info
-        .\build.bat
+        New-Item -Path $env:BUILD_DIR -ItemType Directory -Force
+        dotnet publish ${{ env.PROJ_PATH }} -c Release -o ${{ env.BUILD_PATH }}
 
-    - name: Get version
-    
+    - name: Pack Installer
+      run : |
+        set ISCC_PATH=".\InstallerGenerate\Inno Setup 6\ISCC.exe"
+        set INSTALLER_PATH=".\InstallerGenerate\build_Installer.iss"
+        ${{ env.ISCC_PATH }} ${{ env.INSTALLER_PATH }}
+
+    - name: Get Version
+      run : |
+        $file = "$env:INSTALLER_OUTPUT"
+        $version = (Get-Item $file).VersionInfo.FileVersion
+        "Version=$version" >> $env:GITHUB_ENV
+
+
+    - name: Draft Release
+      uses: softprops/action-gh-release@v2
+      with:
+        draft: true
+        tag_name: v${{ env.Version }}
+        files: ${{ env.INSTALLER_OUTPUT }}
+        name: Release-v${{ env.Version }}
+

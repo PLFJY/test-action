@@ -1,0 +1,944 @@
+{
+  "Game1FirstHalf": {
+    "SurCurrentBan": 4,
+    "HunCurrentBan": 0,
+    "SurGlobalBan": 0,
+    "HunGlobalBan": 0,
+    "WorkFlow": [
+      {
+        "Action": "BanMap",
+        "Index": [ 1 ],
+        "Time": null
+      },
+      {
+        "Action": "PickMap",
+        "Index": [ 0 ],
+        "Time": null
+      },
+      {
+        "Action": "PickCamp",
+        "Index": [ 1 ],
+        "Time": null
+      },
+      {
+        "Action": "BanSur",
+        "Index": [ 0, 1 ],
+        "Time": 60
+      },
+      {
+        "Action": "PickSur",
+        "Index": [ 0, 1 ],
+        "Time": 60
+      },
+      {
+        "Action": "BanSur",
+        "Index": [ 2 ],
+        "Time": 30
+      },
+      {
+        "Action": "PickSur",
+        "Index": [ 2 ],
+        "Time": 30
+      },
+      {
+        "Action": "BanSur",
+        "Index": [ 3 ],
+        "Time": 30
+      },
+      {
+        "Action": "PickSur",
+        "Index": [ 3 ],
+        "Time": 30
+      },
+      {
+        "Action": "DistributeChara",
+        "Index": null,
+        "Time": 30
+      },
+      {
+        "Action": "PickSurTalent",
+        "Index": null,
+        "Time": 60
+      },
+      {
+        "Action": "PickHun",
+        "Index": [ 0 ],
+        "Time": 30
+      },
+      {
+        "Action": "PickHunTalent",
+        "Index": null,
+        "Time": 40
+      }
+    ]
+  },
+  "Game1SecondHalf": {
+    "SurCurrentBan": 4,
+    "HunCurrentBan": 0,
+    "SurGlobalBan": 0,
+    "HunGlobalBan": 0,
+    "WorkFlow": [
+      {
+        "Action": "BanSur",
+        "Index": [ 0, 1 ],
+        "Time": 60
+      },
+      {
+        "Action": "PickSur",
+        "Index": [ 0, 1 ],
+        "Time": 60
+      },
+      {
+        "Action": "BanSur",
+        "Index": [ 2 ],
+        "Time": 30
+      },
+      {
+        "Action": "PickSur",
+        "Index": [ 2 ],
+        "Time": 30
+      },
+      {
+        "Action": "BanSur",
+        "Index": [ 3 ],
+        "Time": 30
+      },
+      {
+        "Action": "PickSur",
+        "Index": [ 3 ],
+        "Time": 30
+      },
+      {
+        "Action": "DistributeChara",
+        "Index": null,
+        "Time": 30
+      },
+      {
+        "Action": "PickSurTalent",
+        "Index": null,
+        "Time": 60
+      },
+      {
+        "Action": "PickHun",
+        "Index": [ 0 ],
+        "Time": 30
+      },
+      {
+        "Action": "PickHunTalent",
+        "Index": null,
+        "Time": 40
+      }
+    ]
+  },
+  "Game2FirstHalf": {
+    "SurCurrentBan": 4,
+    "HunCurrentBan": 1,
+    "SurGlobalBan": 3,
+    "HunGlobalBan": 1,
+    "WorkFlow": [
+      {
+        "Action": "BanMap",
+        "Index": [ 0 ],
+        "Time": null
+      },
+      {
+        "Action": "PickMap",
+        "Index": [ 1 ],
+        "Time": null
+      },
+      {
+        "Action": "PickCamp",
+        "Index": [ 0 ],
+        "Time": null
+      },
+      {
+        "Action": "BanSur",
+        "Index": [ 0, 1 ],
+        "Time": 60
+      },
+      {
+        "Action": "BanHun",
+        "Index": [ 0 ],
+        "Time": 60
+      },
+      {
+        "Action": "PickSur",
+        "Index": [ 0, 1 ],
+        "Time": 60
+      },
+      {
+        "Action": "BanSur",
+        "Index": [ 2 ],
+        "Time": 30
+      },
+      {
+        "Action": "PickSur",
+        "Index": [ 2 ],
+        "Time": 30
+      },
+      {
+        "Action": "BanSur",
+        "Index": [ 3 ],
+        "Time": 30
+      },
+      {
+        "Action": "PickSur",
+        "Index": [ 3 ],
+        "Time": 30
+      },
+      {
+        "Action": "DistributeChara",
+        "Index": null,
+        "Time": 30
+      },
+      {
+        "Action": "PickSurTalent",
+        "Index": null,
+        "Time": 60
+      },
+      {
+        "Action": "PickHun",
+        "Index": [ 0 ],
+        "Time": 30
+      },
+      {
+        "Action": "PickHunTalent",
+        "Index": null,
+        "Time": 40
+      }
+    ]
+  },
+  "Game2SecondHalf": {
+    "SurCurrentBan": 4,
+    "HunCurrentBan": 1,
+    "SurGlobalBan": 3,
+    "HunGlobalBan": 1,
+    "WorkFlow": [
+      {
+        "Action": "BanSur",
+        "Index": [ 0, 1 ],
+        "Time": 60
+      },
+      {
+        "Action": "BanHun",
+        "Index": [ 0 ],
+        "Time": 60
+      },
+      {
+        "Action": "PickSur",
+        "Index": [ 0, 1 ],
+        "Time": 60
+      },
+      {
+        "Action": "BanSur",
+        "Index": [ 2 ],
+        "Time": 30
+      },
+      {
+        "Action": "PickSur",
+        "Index": [ 2 ],
+        "Time": 30
+      },
+      {
+        "Action": "BanSur",
+        "Index": [ 3 ],
+        "Time": 30
+      },
+      {
+        "Action": "PickSur",
+        "Index": [ 3 ],
+        "Time": 30
+      },
+      {
+        "Action": "DistributeChara",
+        "Index": null,
+        "Time": 30
+      },
+      {
+        "Action": "PickSurTalent",
+        "Index": null,
+        "Time": 60
+      },
+      {
+        "Action": "PickHun",
+        "Index": [ 0 ],
+        "Time": 30
+      },
+      {
+        "Action": "PickHunTalent",
+        "Index": null,
+        "Time": 40
+      }
+    ]
+  },
+  "Game3FirstHalf": {
+    "SurCurrentBan": 4,
+    "HunCurrentBan": 2,
+    "SurGlobalBan": 6,
+    "HunGlobalBan": 2,
+    "WorkFlow": [
+      {
+        "Action": "PickMap",
+        "Index": [ 0 ],
+        "Time": null
+      },
+      {
+        "Action": "PickCamp",
+        "Index": [ 1 ],
+        "Time": null
+      },
+      {
+        "Action": "BanSur",
+        "Index": [ 0, 1 ],
+        "Time": 60
+      },
+      {
+        "Action": "BanHun",
+        "Index": [ 0, 1 ],
+        "Time": 60
+      },
+      {
+        "Action": "PickSur",
+        "Index": [ 0, 1 ],
+        "Time": 60
+      },
+      {
+        "Action": "BanSur",
+        "Index": [ 2 ],
+        "Time": 30
+      },
+      {
+        "Action": "PickSur",
+        "Index": [ 2 ],
+        "Time": 30
+      },
+      {
+        "Action": "BanSur",
+        "Index": [ 3 ],
+        "Time": 30
+      },
+      {
+        "Action": "PickSur",
+        "Index": [ 3 ],
+        "Time": 30
+      },
+      {
+        "Action": "DistributeChara",
+        "Index": null,
+        "Time": 30
+      },
+      {
+        "Action": "PickSurTalent",
+        "Index": null,
+        "Time": 60
+      },
+      {
+        "Action": "PickHun",
+        "Index": [ 0 ],
+        "Time": 30
+      },
+      {
+        "Action": "PickHunTalent",
+        "Index": null,
+        "Time": 40
+      }
+    ]
+  },
+  "Game3SecondHalf": {
+    "SurCurrentBan": 4,
+    "HunCurrentBan": 2,
+    "SurGlobalBan": 6,
+    "HunGlobalBan": 2,
+    "WorkFlow": [
+      {
+        "Action": "BanSur",
+        "Index": [ 0, 1 ],
+        "Time": 60
+      },
+      {
+        "Action": "BanHun",
+        "Index": [ 0, 1 ],
+        "Time": 60
+      },
+      {
+        "Action": "PickSur",
+        "Index": [ 0, 1 ],
+        "Time": 60
+      },
+      {
+        "Action": "BanSur",
+        "Index": [ 2 ],
+        "Time": 30
+      },
+      {
+        "Action": "PickSur",
+        "Index": [ 2 ],
+        "Time": 30
+      },
+      {
+        "Action": "BanSur",
+        "Index": [ 3 ],
+        "Time": 30
+      },
+      {
+        "Action": "PickSur",
+        "Index": [ 3 ],
+        "Time": 30
+      },
+      {
+        "Action": "DistributeChara",
+        "Index": null,
+        "Time": 30
+      },
+      {
+        "Action": "PickSurTalent",
+        "Index": null,
+        "Time": 60
+      },
+      {
+        "Action": "PickHun",
+        "Index": [ 0 ],
+        "Time": 30
+      },
+      {
+        "Action": "PickHunTalent",
+        "Index": null,
+        "Time": 40
+      }
+    ]
+  },
+  "Game3ExtraFirstHalf": {
+    "SurCurrentBan": 4,
+    "HunCurrentBan": 2,
+    "SurGlobalBan": 9,
+    "HunGlobalBan": 3,
+    "WorkFlow": [
+      {
+        "Action": "PickMap",
+        "Index": [ 1 ],
+        "Time": null
+      },
+      {
+        "Action": "PickCamp",
+        "Index": [ 0 ],
+        "Time": null
+      },
+      {
+        "Action": "BanSur",
+        "Index": [ 0, 1 ],
+        "Time": 60
+      },
+      {
+        "Action": "BanHun",
+        "Index": [ 0, 1 ],
+        "Time": 60
+      },
+      {
+        "Action": "PickSur",
+        "Index": [ 0, 1 ],
+        "Time": 60
+      },
+      {
+        "Action": "BanSur",
+        "Index": [ 2 ],
+        "Time": 30
+      },
+      {
+        "Action": "PickSur",
+        "Index": [ 2 ],
+        "Time": 30
+      },
+      {
+        "Action": "BanSur",
+        "Index": [ 3 ],
+        "Time": 30
+      },
+      {
+        "Action": "PickSur",
+        "Index": [ 3 ],
+        "Time": 30
+      },
+      {
+        "Action": "DistributeChara",
+        "Index": null,
+        "Time": 30
+      },
+      {
+        "Action": "PickSurTalent",
+        "Index": null,
+        "Time": 60
+      },
+      {
+        "Action": "PickHun",
+        "Index": [ 0 ],
+        "Time": 30
+      },
+      {
+        "Action": "PickHunTalent",
+        "Index": null,
+        "Time": 40
+      }
+    ]
+  },
+  "Game3ExtraSecondHalf": {
+    "SurCurrentBan": 4,
+    "HunCurrentBan": 2,
+    "SurGlobalBan": 9,
+    "HunGlobalBan": 3,
+    "WorkFlow": [
+      {
+        "Action": "BanSur",
+        "Index": [ 0, 1 ],
+        "Time": 60
+      },
+      {
+        "Action": "BanHun",
+        "Index": [ 0, 1 ],
+        "Time": 60
+      },
+      {
+        "Action": "PickSur",
+        "Index": [ 0, 1 ],
+        "Time": 60
+      },
+      {
+        "Action": "BanSur",
+        "Index": [ 2 ],
+        "Time": 30
+      },
+      {
+        "Action": "PickSur",
+        "Index": [ 2 ],
+        "Time": 30
+      },
+      {
+        "Action": "BanSur",
+        "Index": [ 3 ],
+        "Time": 30
+      },
+      {
+        "Action": "PickSur",
+        "Index": [ 3 ],
+        "Time": 30
+      },
+      {
+        "Action": "DistributeChara",
+        "Index": null,
+        "Time": 30
+      },
+      {
+        "Action": "PickSurTalent",
+        "Index": null,
+        "Time": 60
+      },
+      {
+        "Action": "PickHun",
+        "Index": [ 0 ],
+        "Time": 30
+      },
+      {
+        "Action": "PickHunTalent",
+        "Index": null,
+        "Time": 40
+      }
+    ]
+  },
+  "Game4FirstHalf": {
+    "SurCurrentBan": 4,
+    "HunCurrentBan": 2,
+    "SurGlobalBan": 9,
+    "HunGlobalBan": 3,
+    "WorkFlow": [
+      {
+        "Action": "PickMap",
+        "Index": [ 1 ],
+        "Time": null
+      },
+      {
+        "Action": "PickCamp",
+        "Index": [ 0 ],
+        "Time": null
+      },
+      {
+        "Action": "BanSur",
+        "Index": [ 0, 1 ],
+        "Time": 60
+      },
+      {
+        "Action": "BanHun",
+        "Index": [ 0, 1 ],
+        "Time": 60
+      },
+      {
+        "Action": "PickSur",
+        "Index": [ 0, 1 ],
+        "Time": 60
+      },
+      {
+        "Action": "BanSur",
+        "Index": [ 2 ],
+        "Time": 30
+      },
+      {
+        "Action": "PickSur",
+        "Index": [ 2 ],
+        "Time": 30
+      },
+      {
+        "Action": "BanSur",
+        "Index": [ 3 ],
+        "Time": 30
+      },
+      {
+        "Action": "PickSur",
+        "Index": [ 3 ],
+        "Time": 30
+      },
+      {
+        "Action": "DistributeChara",
+        "Index": null,
+        "Time": 30
+      },
+      {
+        "Action": "PickSurTalent",
+        "Index": null,
+        "Time": 60
+      },
+      {
+        "Action": "PickHun",
+        "Index": [ 0 ],
+        "Time": 30
+      },
+      {
+        "Action": "PickHunTalent",
+        "Index": null,
+        "Time": 40
+      }
+    ]
+  },
+  "Game4SecondHalf": {
+    "SurCurrentBan": 4,
+    "HunCurrentBan": 2,
+    "SurGlobalBan": 9,
+    "HunGlobalBan": 3,
+    "WorkFlow": [
+      {
+        "Action": "BanSur",
+        "Index": [ 0, 1 ],
+        "Time": 60
+      },
+      {
+        "Action": "BanHun",
+        "Index": [ 0, 1 ],
+        "Time": 60
+      },
+      {
+        "Action": "PickSur",
+        "Index": [ 0, 1 ],
+        "Time": 60
+      },
+      {
+        "Action": "BanSur",
+        "Index": [ 2 ],
+        "Time": 30
+      },
+      {
+        "Action": "PickSur",
+        "Index": [ 2 ],
+        "Time": 30
+      },
+      {
+        "Action": "BanSur",
+        "Index": [ 3 ],
+        "Time": 30
+      },
+      {
+        "Action": "PickSur",
+        "Index": [ 3 ],
+        "Time": 30
+      },
+      {
+        "Action": "DistributeChara",
+        "Index": null,
+        "Time": 30
+      },
+      {
+        "Action": "PickSurTalent",
+        "Index": null,
+        "Time": 60
+      },
+      {
+        "Action": "PickHun",
+        "Index": [ 0 ],
+        "Time": 30
+      },
+      {
+        "Action": "PickHunTalent",
+        "Index": null,
+        "Time": 40
+      }
+    ]
+  },
+  "Game5FirstHalf": {
+    "SurCurrentBan": 4,
+    "HunCurrentBan": 2,
+    "SurGlobalBan": 9,
+    "HunGlobalBan": 3,
+    "WorkFlow": [
+      {
+        "Action": "PickMap",
+        "Index": [ 0 ],
+        "Time": null
+      },
+      {
+        "Action": "PickCamp",
+        "Index": [ 1 ],
+        "Time": null
+      },
+      {
+        "Action": "BanSur",
+        "Index": [ 0, 1 ],
+        "Time": 60
+      },
+      {
+        "Action": "BanHun",
+        "Index": [ 0, 1 ],
+        "Time": 60
+      },
+      {
+        "Action": "PickSur",
+        "Index": [ 0, 1 ],
+        "Time": 60
+      },
+      {
+        "Action": "BanSur",
+        "Index": [ 2 ],
+        "Time": 30
+      },
+      {
+        "Action": "PickSur",
+        "Index": [ 2 ],
+        "Time": 30
+      },
+      {
+        "Action": "BanSur",
+        "Index": [ 3 ],
+        "Time": 30
+      },
+      {
+        "Action": "PickSur",
+        "Index": [ 3 ],
+        "Time": 30
+      },
+      {
+        "Action": "DistributeChara",
+        "Index": null,
+        "Time": 30
+      },
+      {
+        "Action": "PickSurTalent",
+        "Index": null,
+        "Time": 60
+      },
+      {
+        "Action": "PickHun",
+        "Index": [ 0 ],
+        "Time": 30
+      },
+      {
+        "Action": "PickHunTalent",
+        "Index": null,
+        "Time": 40
+      }
+    ]
+  },
+  "Game5SecondHalf": {
+    "SurCurrentBan": 4,
+    "HunCurrentBan": 2,
+    "SurGlobalBan": 9,
+    "HunGlobalBan": 3,
+    "WorkFlow": [
+      {
+        "Action": "BanSur",
+        "Index": [ 0, 1 ],
+        "Time": 60
+      },
+      {
+        "Action": "BanHun",
+        "Index": [ 0, 1 ],
+        "Time": 60
+      },
+      {
+        "Action": "PickSur",
+        "Index": [ 0, 1 ],
+        "Time": 60
+      },
+      {
+        "Action": "BanSur",
+        "Index": [ 2 ],
+        "Time": 30
+      },
+      {
+        "Action": "PickSur",
+        "Index": [ 2 ],
+        "Time": 30
+      },
+      {
+        "Action": "BanSur",
+        "Index": [ 3 ],
+        "Time": 30
+      },
+      {
+        "Action": "PickSur",
+        "Index": [ 3 ],
+        "Time": 30
+      },
+      {
+        "Action": "DistributeChara",
+        "Index": null,
+        "Time": 30
+      },
+      {
+        "Action": "PickSurTalent",
+        "Index": null,
+        "Time": 60
+      },
+      {
+        "Action": "PickHun",
+        "Index": [ 0 ],
+        "Time": 30
+      },
+      {
+        "Action": "PickHunTalent",
+        "Index": null,
+        "Time": 40
+      }
+    ]
+  },
+  "Game5ExtraFirstHalf": {
+    "SurCurrentBan": 4,
+    "HunCurrentBan": 2,
+    "SurGlobalBan": 9,
+    "HunGlobalBan": 3,
+    "WorkFlow": [
+      {
+        "Action": "PickMap",
+        "Index": [ 1 ],
+        "Time": null
+      },
+      {
+        "Action": "PickCamp",
+        "Index": [ 0 ],
+        "Time": null
+      },
+      {
+        "Action": "BanSur",
+        "Index": [ 0, 1 ],
+        "Time": 60
+      },
+      {
+        "Action": "BanHun",
+        "Index": [ 0, 1 ],
+        "Time": 60
+      },
+      {
+        "Action": "PickSur",
+        "Index": [ 0, 1 ],
+        "Time": 60
+      },
+      {
+        "Action": "BanSur",
+        "Index": [ 2 ],
+        "Time": 30
+      },
+      {
+        "Action": "PickSur",
+        "Index": [ 2 ],
+        "Time": 30
+      },
+      {
+        "Action": "BanSur",
+        "Index": [ 3 ],
+        "Time": 30
+      },
+      {
+        "Action": "PickSur",
+        "Index": [ 3 ],
+        "Time": 30
+      },
+      {
+        "Action": "DistributeChara",
+        "Index": null,
+        "Time": 30
+      },
+      {
+        "Action": "PickSurTalent",
+        "Index": null,
+        "Time": 60
+      },
+      {
+        "Action": "PickHun",
+        "Index": [ 0 ],
+        "Time": 30
+      }
+    ]
+  },
+  "Game5ExtraSecondHalf": {
+    "SurCurrentBan": 4,
+    "HunCurrentBan": 2,
+    "SurGlobalBan": 9,
+    "HunGlobalBan": 3,
+    "WorkFlow": [
+      {
+        "Action": "BanSur",
+        "Index": [ 0, 1 ],
+        "Time": 60
+      },
+      {
+        "Action": "BanHun",
+        "Index": [ 0, 1 ],
+        "Time": 60
+      },
+      {
+        "Action": "PickSur",
+        "Index": [ 0, 1 ],
+        "Time": 60
+      },
+      {
+        "Action": "BanSur",
+        "Index": [ 2 ],
+        "Time": 30
+      },
+      {
+        "Action": "PickSur",
+        "Index": [ 2 ],
+        "Time": 30
+      },
+      {
+        "Action": "BanSur",
+        "Index": [ 3 ],
+        "Time": 30
+      },
+      {
+        "Action": "PickSur",
+        "Index": [ 3 ],
+        "Time": 30
+      },
+      {
+        "Action": "DistributeChara",
+        "Index": null,
+        "Time": 30
+      },
+      {
+        "Action": "PickSurTalent",
+        "Index": null,
+        "Time": 60
+      },
+      {
+        "Action": "PickHun",
+        "Index": [ 0 ],
+        "Time": 30
+      }
+    ]
+  }
+}
