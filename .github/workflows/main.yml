@@ -36,8 +36,7 @@ jobs:
 
     - name: Get Version
       run : |
-        $file = ${{ env.INSTALLER_OUTPUT }}
-        $version = (Get-Item "$file").VersionInfo.ProductVersion
+        $version = (Get-Item "${{ env.INSTALLER_OUTPUT }}").VersionInfo.ProductVersion
         "Version=$version" >> $env:GITHUB_ENV
 
     - name: Draft Release
