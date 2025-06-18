@@ -33,8 +33,6 @@ jobs:
 
     - name: Pack Installer
       run : |
-        set ISCC_PATH=".\InstallerGenerate\Inno Setup 6\ISCC.exe"
-        set INSTALLER_PATH=".\InstallerGenerate\build_Installer.iss"
         "${{ env.INSTALLER_GENERATE_DIR }}/Inno Setup 6/ISCC.exe" "${{ env.INSTALLER_GENERATE_DIR }}/build_Installer.iss"
 
     - name: Get Version
