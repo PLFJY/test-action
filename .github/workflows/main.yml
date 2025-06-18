@@ -31,6 +31,7 @@ jobs:
         dotnet publish ${{ env.PROJ_PATH }} -c Release -o ${{ env.BUILD_PATH }}
 
     - name: Pack Installer
+      shell: cmd
       run : |
         "${{ env.INSTALLER_GENERATE_DIR }}\Inno Setup 6\ISCC.exe" "${{ env.INSTALLER_GENERATE_DIR }}\build_Installer.iss"
 
