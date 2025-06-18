@@ -35,11 +35,11 @@ jobs:
       run : |
         set ISCC_PATH=".\InstallerGenerate\Inno Setup 6\ISCC.exe"
         set INSTALLER_PATH=".\InstallerGenerate\build_Installer.iss"
-        ${{ env.ISCC_PATH }} ${{ env.INSTALLER_PATH }}
+        "${{ env.INSTALLER_GENERATE_DIR }}/Inno Setup 6/ISCC.exe" "${{ env.INSTALLER_GENERATE_DIR }}/build_Installer.iss
 
     - name: Get Version
       run : |
-        $file = "$env:INSTALLER_OUTPUT"
+        $file = ${{ env.INSTALLER_OUTPUT }}
         $version = (Get-Item $file).VersionInfo.FileVersion
         "Version=$version" >> $env:GITHUB_ENV
 
