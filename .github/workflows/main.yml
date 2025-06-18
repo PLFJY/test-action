@@ -38,7 +38,7 @@ jobs:
       run : |
         $file = "${{ env.INSTALLER_OUTPUT }}""
         $version = (Get-Item $file).VersionInfo.ProductVersion
-        "Version=$version" >> $env:GITHUB_ENV
+        "Version=$version" >> ${{ env.GITHUB_ENV }}
 
     - name: Draft Release
       uses: softprops/action-gh-release@v2
