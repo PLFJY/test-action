@@ -28,7 +28,7 @@ jobs:
     - name: Build
       run: |
         dotnet --info
-        New-Item -Path $env:BUILD_DIR -ItemType Directory -Force
+        New-Item -Path ${{ github.workspace }}/build -ItemType Directory -Force
         dotnet publish ${{ env.PROJ_PATH }} -c Release -o ${{ env.BUILD_PATH }}
 
     - name: Pack Installer
