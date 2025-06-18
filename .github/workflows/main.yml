@@ -3,8 +3,7 @@ name: Build and draft a release
 on: workflow_dispatch
 
 jobs:
-
-  build_pack_and_draft_release:
+  build_and_draft_release:
     env:
       BUILD_PATH: ${{ github.workspace }}\build\neo-bpsys-wpf
       PROJ_PATH: ${{ github.workspace }}\neo-bpsys-wpf\neo-bpsys-wpf.csproj
@@ -38,7 +37,7 @@ jobs:
     - name: Get Version
       run : |
         $file = ${{ env.INSTALLER_OUTPUT }}
-        $version = (Get-Item $file).VersionInfo.FileVersion
+        $version = (Get-Item $file).VersionInfo.ProductVersion
         "Version=$version" >> $env:GITHUB_ENV
 
     - name: Draft Release
