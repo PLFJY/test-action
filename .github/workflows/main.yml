@@ -26,4 +26,8 @@ jobs:
     - name: Build by Script
       run: |
         powershell
-        ls
+        dotnet --info
+        .\build.bat
+
+    - name: Get version
+    
