@@ -27,7 +27,6 @@ jobs:
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
           git config --global core.autocrlf input
-          echo "::add-path::C:/Program Files/Git/bin"
         shell: pwsh
 
       - name: Rebase dev onto main
