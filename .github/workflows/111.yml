@@ -1,9 +1,6 @@
 name: Sync dev branch with main
 
 on:
-  push:
-    branches:
-      - main
   pull_request:
     branches:
       - main
