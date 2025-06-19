@@ -1,0 +1,45 @@
+name: Sync dev branch with main
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+    types:
+      - closed
+    paths:
+      - '.github/workflows/sync-dev-branch.yml'
+
+jobs:
+  sync-dev-branch:
+    runs-on: windows-latest  # 或 windows-11-arm 以支持Arm架构
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4  # 升级到v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Git
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git config --global core.autocrlf input
+          echo "::add-path::C:/Program Files/Git/bin"
+        shell: pwsh
+
+      - name: Rebase dev onto main
+        run: |
+          git fetch origin main dev
+          git checkout dev
+          git rebase origin/main
+        shell: pwsh
+
+      - name: Push dev branch
+        run: |
+          git push origin dev --force-with-lease
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: pwsh
